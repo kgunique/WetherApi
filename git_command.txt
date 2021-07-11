@@ -1,0 +1,15 @@
+1. touch .gitignore
+2. git config --global user.name "Your Name"
+3. git config --global user.email "your Email"
+4. git init
+5. git add .
+6. git commit -m "Initial Commit"
+7. git status // Just to see our working tree is clean and not necessarily used
+8. git remote add origin git@github.com:96karancpp/viewCheatsheet.git
+9. ssh-keygen -t rsa -b 4096 -C "your email"
+
+	Copy the public Key Path "/c/Users/91834/.ssh/id_rsa.pub" and run
+10. cat <your copied path>
+11.tail <path to id_rsa.pub> # Add this key to your Github account
+12.git remote add origin <ssh url.git>
+13.git push origin master
