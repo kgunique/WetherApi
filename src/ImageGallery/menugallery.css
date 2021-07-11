@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: white
+}
+.mainheading{
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-family:cursive;
+}
+.menuitem{
+    border: 1px solid red;
+}
+.item1{
+    border: 1px solid black;;
+}
+/* .imgdiv{
+    border: 1px solid blue;
+} */
+.imgdiv img{
+    height: 100%;
+    width: 100%;
+}
+.maintitle{
+    border:1px solid green
+}
+.menuprice{
+    border: 1px solid violet;
+}
+.menutabs .menutab button{
+    text-transform: capitalize;
+}

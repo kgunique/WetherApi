@@ -23,7 +23,7 @@ const Weather = () => {
                         className="inputfield"
                         value={search}
                         onChange={(event) => { setSearch(event.target.value) }}
-                    />
+                    /> Type Your city name to see the report and make sure your spelling should be correct
                 </div>
                 {!city ? (<p>No Data Found</p>) :
                     (<><div className="information">
